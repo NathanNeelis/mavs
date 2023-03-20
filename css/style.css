@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --white: #fff;
+  --darkblack: #121212;
+  /* mavs ambient color  */
+  --inner: #af0000;
+  --middle: #d20000;
+  --outer: #e50000;
+}
+
+.mavs-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  background: var(--darkblack);
+}
+
+.mavs-wrapper {
+  width: 30rem;
+  height: 22.6rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mavs-body {
+  width: 30rem;
+  position: fixed;
+}
+
+.mavs-body img {
+  width: 100%;
+}
+
+/* MAVS EYE  */
+.mavs-eye {
+  position: relative;
+  display: block;
+  width: 4rem;
+  left: 12.5rem;
+  top: 0rem;
+}
+
+.eye-glow {
+  position: relative;
+  left: 15rem;
+  top: -1rem;
+  width: 20px;
+  height: 140px;
+  border-radius: 50%;
+  /* background-color: green; */
+  box-shadow: 12px 10px 30px 5px var(--outer);
+  /* z-index: 0; */
+}
+
+.mavs-eye-pupil {
+  fill: black;
+  transform: translateY(-7px);
+}
+
+.st0 {
+  fill: url(#SVGID_1_);
+}
+
+/* THRUSTER  */
+.mavs-thruster {
+  position: fixed;
+  display: block;
+  width: 8rem;
+  left: 14.7rem;
+  bottom: 0rem;
+
+  opacity: 0.8;
+}
+
+.Tst1 {
+  opacity: 0.15;
+}
+.st2 {
+  fill: none;
+  stroke: #1d1d1b;
+  stroke-miterlimit: 10;
+}
+
+/* MAVS shadow  */
+.mavs-ambient-shadow {
+  position: fixed;
+  bottom: -8rem;
+  left: 13.5rem;
+
+  width: 8rem;
+  height: 1rem;
+  /* border: 3px solid black; */
+  background-color: var(--outer);
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 1200;
+
+  box-shadow: 0px 0px 20px 5px var(--outer);
+}
