@@ -61,6 +61,14 @@ const helloBtn = document.querySelector(".btnHello");
 helloBtn.addEventListener("click", (e) => {
   var audio = new Audio("audio/hello.mp3");
   audio.play();
+
+  const basemapBtn = document.querySelector(".promptButtons");
+  basemapBtn.style.display = "none";
+
+  const loader = document.querySelector(".loadingSpinner");
+  loader.style.display = "flex";
+
+  setTimeout(changeLoader, 5000);
 });
 
 const basemapBtn = document.querySelector(".btnBaseMap");
