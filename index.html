@@ -24,6 +24,10 @@
 
     <!-- mavs body  -->
     <div class="mavs-container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="" />
+      </div>
+
       <section class="mavs-wrapper">
         <div class="mavs-body">
           <img src="images/mavs-body2.png" alt="" />
@@ -139,8 +143,28 @@
         <div class="mavs-ambient-shadow"></div>
       </section>
 
+      <section class="prompts">
+        <h2>Interact with Mavs</h2>
+        <section class="promptButtons">
+          <div class="btnPrompt btnHello">
+            <p>say hello!</p>
+          </div>
+          <div class="btnPrompt btnBaseMap">
+            <p>display base map</p>
+          </div>
+        </section>
+        <section class="loadingSpinner">
+          <div class="lds-ripple">
+            <div></div>
+            <div></div>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <footer>
       <section class="colourPrompts">
-        <h2>Change ambient</h2>
+        <h2>Change ambient colour:</h2>
         <div class="btnColour green">
           <p>green</p>
         </div>
@@ -154,7 +178,7 @@
           <p>red</p>
         </div>
       </section>
-    </div>
+    </footer>
 
     <!-- SCRIPTS  -->
     <script src="js/script.js"></script>
