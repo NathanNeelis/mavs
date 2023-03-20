@@ -9,10 +9,10 @@
 :root {
   --white: #fff;
   --darkblack: #121212;
+
   /* mavs ambient color  */
-  --inner: #af0000;
-  /* --middle: #d20000; */
-  --outer: #e50000;
+  --inner: #1747ff;
+  --outer: #00c5e7;
 }
 
 .mavs-container {
@@ -116,7 +116,7 @@
 
 /* color buttons buttons  */
 .prompts {
-  height: 20rem;
+  height: 25rem;
   width: 20rem;
   color: white;
   padding: 2rem;
@@ -153,16 +153,16 @@
 }
 
 .green {
-  background: green;
+  background: #06b900;
 }
 .blue {
-  background-color: blue;
+  background-color: #00c5e7;
 }
 .orange {
-  background-color: orange;
+  background-color: #ff9100;
 }
 .red {
-  background-color: red;
+  background-color: #e50000;
 }
 
 footer {
@@ -365,4 +365,68 @@ footer .btnColour {
   50% {
     transform: scale(1.5);
   }
+}
+
+/* SLIDER  */
+.slidecontainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* right: 6rem; */
+  /* bottom: 10rem; */
+  width: 15rem;
+}
+
+.slidecontainer p {
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.slidecontainer::after {
+  content: "high";
+  font-size: 0.8rem;
+  position: absolute;
+  right: 0;
+  top: 4.5rem;
+  color: white;
+}
+
+.slidecontainer::before {
+  content: "low";
+  font-size: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 4.5rem;
+  color: white;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--outer);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--outer);
+  cursor: pointer;
 }

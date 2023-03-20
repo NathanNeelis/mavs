@@ -10,7 +10,8 @@
 	.Schemering{fill:#FFFFFF;}
 	.Gebladerte_AS{fill:#FFDD00;}
 	.Pompadoer_AS{fill-rule:evenodd;clip-rule:evenodd;fill:#51AEE2;}
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#7F5B5B;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#1D1D1D;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0.7071" y2="0.7071">
 	<stop  offset="0" style="stop-color:#E6E6EB"/>
@@ -21,6 +22,7 @@
 	<stop  offset="0.9031" style="stop-color:#818485"/>
 	<stop  offset="1" style="stop-color:#6B6E6E"/>
 </linearGradient>
-<path class="st0" d="M8,11.4l-3.9,3.9c-2.2,2.2-5.6-1.2-3.4-3.4L4.6,8L0.7,4.1c-2.2-2.2,1.2-5.6,3.4-3.4L8,4.6l3.9-3.9
-	c2.2-2.2,5.6,1.2,3.4,3.4L11.4,8l3.9,3.9c2.2,2.2-1.2,5.6-3.4,3.4L8,11.4z"/>
+<circle class="st0" cx="8" cy="8" r="8"/>
+<path class="st1" d="M8,9.9l-2.2,2.2c-1.2,1.2-3.1-0.7-1.9-1.9L6.1,8L3.9,5.8C2.7,4.6,4.6,2.7,5.8,3.9L8,6.1l2.2-2.2
+	c1.2-1.2,3.1,0.7,1.9,1.9L9.9,8l2.2,2.2c1.2,1.2-0.7,3.1-1.9,1.9L8,9.9z"/>
 </svg>

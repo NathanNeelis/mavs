@@ -1,16 +1,12 @@
 const container = document.querySelector(".mavs-container");
 container.addEventListener("mousemove", (e) => {
-  const mavs = document.querySelector(".mavs-body");
   const mavsWrapper = document.querySelector(".mavs-wrapper");
-  const eye = document.querySelector(".mavs-eye");
   const pupil = document.querySelector(".mavs-eye-pupil");
 
   let mouseY = e.clientY;
   let movementY = mouseY / 50 - 7;
   let bodyMovementY = mouseY / 100 - 3;
   pupil.style.transform = `translateY(${movementY}px)`;
-  //   mavs.style.transform = `rotate(${bodyMovementY}deg)`;
-  //   eye.style.transform = `translateY(${movementY}px)`;
 
   mavsWrapper.style.transform = `rotate(${bodyMovementY}deg)`;
 });
@@ -20,46 +16,63 @@ var r = document.querySelector(":root");
 function setGreen() {
   r.style.setProperty("--inner", "#538b00");
   r.style.setProperty("--outer", "#06b900");
+
+  let audio = new Audio("audio/low.mp3");
+  audio.play();
 }
 
 function setBlue() {
   r.style.setProperty("--inner", "#1747ff");
   r.style.setProperty("--outer", "#00c5e7");
+
+  let audio = new Audio("audio/normal.mp3");
+  audio.play();
 }
 
 function setOrange() {
   r.style.setProperty("--inner", "#ff6400");
   r.style.setProperty("--outer", "#ff9100");
+
+  let audio = new Audio("audio/elevated.mp3");
+  audio.play();
 }
 
 function setRed() {
   r.style.setProperty("--inner", "#af0000");
   r.style.setProperty("--outer", "#e50000");
+
+  let audio = new Audio("audio/high.mp3");
+  audio.play();
 }
 
 const greenBtn = document.querySelector(".green");
 greenBtn.addEventListener("click", (e) => {
   setGreen();
+
+  slider.value = 25;
 });
 
 const blueBtn = document.querySelector(".blue");
 blueBtn.addEventListener("click", (e) => {
   setBlue();
+  slider.value = 75;
 });
 
 const orangeBtn = document.querySelector(".orange");
 orangeBtn.addEventListener("click", (e) => {
   setOrange();
+  slider.value = 125;
 });
 
 const redBtn = document.querySelector(".red");
 redBtn.addEventListener("click", (e) => {
   setRed();
+  slider.value = 175;
 });
 
 const helloBtn = document.querySelector(".btnHello");
 helloBtn.addEventListener("click", (e) => {
-  var audio = new Audio("audio/hello.mp3");
+  let audio = new Audio("audio/hello.mp3");
   audio.play();
 
   const loader = document.querySelector(".loadingSpinner");
@@ -70,7 +83,7 @@ helloBtn.addEventListener("click", (e) => {
 
 const basemapBtn = document.querySelector(".btnBaseMap");
 basemapBtn.addEventListener("click", (e) => {
-  var audio = new Audio("audio/generating-basemap.mp3");
+  let audio = new Audio("audio/generating-basemap.mp3");
   audio.play();
 
   const basemapBtn = document.querySelector(".promptButtons");
@@ -140,3 +153,18 @@ function closingBasemap() {
   const loaderTwo = document.querySelector(".loadingSpinner2");
   loaderTwo.style.display = "none";
 }
+
+// SLIDER
+let slider = document.getElementById("myRange");
+
+slider.onchange = function () {
+  if (slider.value < 50) {
+    setGreen();
+  } else if (slider.value >= 50 && slider.value < 100) {
+    setBlue();
+  } else if (slider.value >= 100 && slider.value < 150) {
+    setOrange();
+  } else {
+    setRed();
+  }
+};
