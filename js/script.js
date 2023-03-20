@@ -14,3 +14,45 @@ container.addEventListener("mousemove", (e) => {
 
   mavsWrapper.style.transform = `rotate(${bodyMovementY}deg)`;
 });
+
+var r = document.querySelector(":root");
+// outer = lighter, inner = darker
+function setGreen() {
+  r.style.setProperty("--inner", "#538b00");
+  r.style.setProperty("--outer", "#06b900");
+}
+
+function setBlue() {
+  r.style.setProperty("--inner", "#1747ff");
+  r.style.setProperty("--outer", "#00c5e7");
+}
+
+function setOrange() {
+  r.style.setProperty("--inner", "#ff6400");
+  r.style.setProperty("--outer", "#ff9100");
+}
+
+function setRed() {
+  r.style.setProperty("--inner", "#af0000");
+  r.style.setProperty("--outer", "#e50000");
+}
+
+const greenBtn = document.querySelector(".green");
+greenBtn.addEventListener("click", (e) => {
+  setGreen();
+});
+
+const blueBtn = document.querySelector(".blue");
+blueBtn.addEventListener("click", (e) => {
+  setBlue();
+});
+
+const orangeBtn = document.querySelector(".orange");
+orangeBtn.addEventListener("click", (e) => {
+  setOrange();
+});
+
+const redBtn = document.querySelector(".red");
+redBtn.addEventListener("click", (e) => {
+  setRed();
+});

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -10,14 +11,14 @@
   --darkblack: #121212;
   /* mavs ambient color  */
   --inner: #af0000;
-  --middle: #d20000;
+  /* --middle: #d20000; */
   --outer: #e50000;
 }
 
 .mavs-container {
   height: 100vh;
   display: flex;
-  flex-direction: center;
+  justify-content: space-around;
   align-items: center;
   background: var(--darkblack);
 }
@@ -56,9 +57,7 @@
   width: 20px;
   height: 140px;
   border-radius: 50%;
-  /* background-color: green; */
   box-shadow: 12px 10px 30px 5px var(--outer);
-  /* z-index: 0; */
 }
 
 .mavs-eye-pupil {
@@ -106,4 +105,46 @@
   filter: blur(6px);
 
   box-shadow: 0px 0px 10px 5px var(--outer);
+}
+
+/* color buttons buttons  */
+.colourPrompts {
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #101010;
+  margin: 2rem;
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+.btnColour {
+  border-radius: 0.3rem;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+}
+.btnColour:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.btnColour p {
+  display: flex;
+}
+
+.green {
+  background: green;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.red {
+  background-color: red;
 }
