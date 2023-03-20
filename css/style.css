@@ -94,15 +94,16 @@
 .mavs-ambient-shadow {
   position: fixed;
   bottom: -8rem;
-  left: 13.5rem;
+  left: 14rem;
 
   width: 8rem;
   height: 1rem;
   /* border: 3px solid black; */
-  background-color: var(--outer);
+  background-color: var(--inner);
   border-radius: 50%;
-  opacity: 1;
+  opacity: 0.5;
   z-index: 1200;
+  filter: blur(6px);
 
-  box-shadow: 0px 0px 20px 5px var(--outer);
+  box-shadow: 0px 0px 10px 5px var(--outer);
 }
