@@ -1,0 +1,61 @@
+.basemap {
+  width: 40rem;
+  display: none;
+}
+
+.closeMapBtn {
+  background: white;
+  color: var(--darkblack);
+  border-radius: 0.3rem;
+  width: 12rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.8;
+
+  position: fixed;
+  right: 5rem;
+  top: 5rem;
+}
+
+.closeMapBtn::before {
+  content: "x";
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: var(--darkblack);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+.closeMapBtn:hover {
+  opacity: 0.4;
+}
+
+.Bst0 {
+  display: none;
+  fill: #1d1d1b;
+  stroke: #1d1d1b;
+  stroke-width: 0.8155;
+  stroke-miterlimit: 10;
+}
+.Bst1 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.Bst2 {
+  fill: none;
+}
+.st3 {
+  fill: #ffffff;
+}
+.st5 {
+  font-size: 15px;
+}

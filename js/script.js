@@ -62,13 +62,10 @@ helloBtn.addEventListener("click", (e) => {
   var audio = new Audio("audio/hello.mp3");
   audio.play();
 
-  const basemapBtn = document.querySelector(".promptButtons");
-  basemapBtn.style.display = "none";
-
   const loader = document.querySelector(".loadingSpinner");
   loader.style.display = "flex";
 
-  setTimeout(changeLoader, 5000);
+  setTimeout(changeLoader, 4000);
 });
 
 const basemapBtn = document.querySelector(".btnBaseMap");
@@ -82,7 +79,10 @@ basemapBtn.addEventListener("click", (e) => {
   const loader = document.querySelector(".loadingSpinner");
   loader.style.display = "flex";
 
-  setTimeout(changeLoader, 5000);
+  const loaderTwo = document.querySelector(".loadingSpinner2");
+  loaderTwo.style.display = "flex";
+
+  setTimeout(changeLoaderBasemap, 3500);
 });
 
 function changeLoader() {
@@ -91,4 +91,52 @@ function changeLoader() {
 
   const loader = document.querySelector(".loadingSpinner");
   loader.style.display = "none";
+
+  const loaderTwo = document.querySelector(".loadingSpinner2");
+  loaderTwo.style.display = "none";
+}
+
+function changeLoaderBasemap() {
+  const basemapBtn = document.querySelector(".promptButtons");
+  basemapBtn.style.display = "flex";
+
+  const basemap = document.querySelector(".basemap");
+  basemap.style.display = "flex";
+
+  const prompts = document.querySelector(".prompts");
+  prompts.style.display = "none";
+
+  const loader = document.querySelector(".loadingSpinner");
+  loader.style.display = "none";
+
+  const loaderTwo = document.querySelector(".loadingSpinner2");
+  loaderTwo.style.display = "none";
+}
+
+const closeBasemap = document.querySelector(".closeMapBtn");
+closeBasemap.addEventListener("click", (e) => {
+  var audio = new Audio("audio/shutdown-basemap.mp3");
+  audio.play();
+
+  const loader = document.querySelector(".loadingSpinner");
+  loader.style.display = "flex";
+
+  setTimeout(closingBasemap, 3000);
+});
+
+function closingBasemap() {
+  const basemapBtn = document.querySelector(".promptButtons");
+  basemapBtn.style.display = "flex";
+
+  const basemap = document.querySelector(".basemap");
+  basemap.style.display = "none";
+
+  const prompts = document.querySelector(".prompts");
+  prompts.style.display = "flex";
+
+  const loader = document.querySelector(".loadingSpinner");
+  loader.style.display = "none";
+
+  const loaderTwo = document.querySelector(".loadingSpinner2");
+  loaderTwo.style.display = "none";
 }

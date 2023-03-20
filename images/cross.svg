@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.Slagschaduw{fill:none;}
+	.Afgeronde_x0020_hoeken_x0020_2_x0020_pt{fill:#FFFFFF;stroke:#1D1D1B;stroke-miterlimit:10;}
+	.X_x0020_actief_x0020_weerspiegelen{fill:none;}
+	.Zachte_x0020_schuine_x0020_kant{fill:url(#SVGID_1_);}
+	.Schemering{fill:#FFFFFF;}
+	.Gebladerte_AS{fill:#FFDD00;}
+	.Pompadoer_AS{fill-rule:evenodd;clip-rule:evenodd;fill:#51AEE2;}
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#7F5B5B;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0.7071" y2="0.7071">
+	<stop  offset="0" style="stop-color:#E6E6EB"/>
+	<stop  offset="0.1754" style="stop-color:#E2E2E7"/>
+	<stop  offset="0.3552" style="stop-color:#D6D6DB"/>
+	<stop  offset="0.5371" style="stop-color:#C2C3C6"/>
+	<stop  offset="0.7204" style="stop-color:#A5A7A9"/>
+	<stop  offset="0.9031" style="stop-color:#818485"/>
+	<stop  offset="1" style="stop-color:#6B6E6E"/>
+</linearGradient>
+<path class="st0" d="M8,11.4l-3.9,3.9c-2.2,2.2-5.6-1.2-3.4-3.4L4.6,8L0.7,4.1c-2.2-2.2,1.2-5.6,3.4-3.4L8,4.6l3.9-3.9
+	c2.2-2.2,5.6,1.2,3.4,3.4L11.4,8l3.9,3.9c2.2,2.2-1.2,5.6-3.4,3.4L8,11.4z"/>
+</svg>
