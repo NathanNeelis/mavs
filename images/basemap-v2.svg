@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 935 655" style="enable-background:new 0 0 935 655;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#1D1D1B;stroke:#1D1D1B;stroke-width:0.8155;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:17px;}
+</style>
+<rect x="-53.5" y="-142.5" class="st0" width="1042" height="876"/>
+<g>
+	<path class="st1" d="M768,255.3v44.3h-21.1v-44.3v-20.6V25.6H652v209.2v20.6v44.3h-15.1v-44.3H542v44.3h-10.1v-44.3h-36.4
+		L405.2,184l18.8-25.2l-129.8-97l-10,13.4l-66-4.4V42.1H30.6v113.4h58.5v15.3H30.6v159.1h58.5v15H30.3v113.4h70
+		c0,0,10,22.2,33.1,38.8c23,16.7,59,8.3,59,8.3l53.1-20l22.8,28.5l126.6-101.2L345.6,351l8.1-21.2l16.2-3.8v42.6H532v-48.2h10v48.2
+		h94.9v-48.2H652v48.2v20.6v113.4v20.6v113.4h94.9V523.3v-20.6V389.3v-20.6v-48.2H768v48.2h138.3V255.3H768z M369.8,299.8h-24.3
+		l-15,32.6l-6.5-8.2L197.4,425.5l29.3,36.7c0,0-25.4,10.4-42.4,13.4S131,458.4,131,458.4h61.4V345h-59v-15h59V170.8h-59v-15.3h84.7
+		v-37.7l36.1-2.7l11.2-14.9l-39.2,52.4l129.8,97l25.2-33.7l52.9,39.4h-64.4L369.8,299.8L369.8,299.8z"/>
+	<rect x="780.4" y="268.5" class="st2" width="113.3" height="23.7"/>
+	<text transform="matrix(1 0 0 1 780.3679 280.5832)" class="st3 st4 st5">Fitness facility</text>
+	<rect x="661.4" y="265.5" class="st2" width="82.5" height="53.6"/>
+	<text transform="matrix(1 0 0 1 661.3679 277.5832)" class="st3 st4 st5">Sleeping</text>
+	<text transform="matrix(1 0 0 1 661.3679 297.9832)" class="st3 st4 st5">quarters</text>
+	<rect x="661.4" y="43.5" class="st2" width="82.5" height="53.6"/>
+	<rect x="661.4" y="401.5" class="st2" width="82.5" height="53.6"/>
+	<rect x="661.4" y="537.5" class="st2" width="82.5" height="53.6"/>
+	<rect x="550.4" y="265.5" class="st2" width="82.5" height="53.6"/>
+	<text transform="matrix(1 0 0 1 554.3682 278.5833)" class="st3 st4 st5">Shower</text>
+	<text transform="matrix(1 0 0 1 554.3682 298.9832)" class="st3 st4 st5">facilities</text>
+	<rect x="381.4" y="265.5" class="st2" width="137.5" height="53.6"/>
+	<text transform="matrix(1 0 0 1 383.368 280.5834)" class="st3 st4 st5">Common</text>
+	<text transform="matrix(1 0 0 1 383.368 300.9834)" class="st3 st4 st5">room</text>
+	<text transform="matrix(0.8 0.6 -0.6 0.8 288.6705 102.9401)" class="st3 st4 st5">Storage </text>
+	<text transform="matrix(0.7707 -0.6373 0.6373 0.7707 236.7187 436.0284)" class="st3 st4 st5">Command</text>
+	<text transform="matrix(0.7707 -0.6373 0.6373 0.7707 249.7187 451.7496)" class="st3 st4 st5">centre</text>
+	<rect x="35.8" y="354.5" class="st2" width="143" height="53.6"/>
+	<text transform="matrix(1 0 0 1 42.8487 369.5839)" class="st3 st4 st5">Research lab 3</text>
+	<rect x="35.8" y="187.5" class="st2" width="143" height="53.6"/>
+	<text transform="matrix(1 0 0 1 42.8487 202.5839)" class="st3 st4 st5">Research lab 2</text>
+	<rect x="35.8" y="57.5" class="st2" width="143" height="53.6"/>
+	<text transform="matrix(1 0 0 1 42.8487 72.5839)" class="st3 st4 st5">Research lab 1</text>
+</g>
+</svg>

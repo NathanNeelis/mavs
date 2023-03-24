@@ -9,6 +9,7 @@
 :root {
   --white: #fff;
   --darkblack: #121212;
+  --darkerblack: #101010;
 
   /* mavs ambient color  */
   --inner: #1747ff;
@@ -121,11 +122,11 @@
   color: white;
   padding: 2rem;
   border-radius: 1rem;
-  background: #101010;
+  background: var(--darkerblack);
   margin-left: 20rem;
   box-shadow: 0px 0px 10px 1px black;
 
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
@@ -401,7 +402,8 @@ footer .btnColour {
   color: white;
 }
 
-.slider {
+.slider,
+.datapointSlider {
   -webkit-appearance: none;
   width: 100%;
   height: 10px;
@@ -413,7 +415,8 @@ footer .btnColour {
   transition: opacity 0.2s;
 }
 
-.slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb,
+.datapointSlider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 25px;
@@ -429,4 +432,43 @@ footer .btnColour {
   border-radius: 50%;
   background: var(--outer);
   cursor: pointer;
+}
+
+/* HABITANT PROMPTS  */
+/* color buttons buttons  */
+.habitantPrompts {
+  height: 25rem;
+  width: 20rem;
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  background: #101010;
+  margin-left: 20rem;
+  box-shadow: 0px 0px 10px 1px black;
+
+  display: none;
+  flex-direction: column;
+}
+
+.btnPrompt {
+  border-radius: 0.3rem;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  transition: all 0.3s ease;
+  background-color: #1d1d1b;
+  cursor: pointer;
+}
+
+.btnPrompt:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+  background-color: var(--outer);
+}
+
+.btnColour p {
+  display: flex;
 }

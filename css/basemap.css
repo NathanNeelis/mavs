@@ -1,6 +1,7 @@
 .basemap {
   width: 40rem;
-  display: none;
+  display: flex;
+  position: relative;
 }
 
 .closeMapBtn {
@@ -40,10 +41,6 @@
 
 .Bst0 {
   display: none;
-  fill: #1d1d1b;
-  stroke: #1d1d1b;
-  stroke-width: 0.8155;
-  stroke-miterlimit: 10;
 }
 .Bst1 {
   fill: none;
@@ -59,4 +56,202 @@
 }
 .st5 {
   font-size: 15px;
+}
+
+/* ROOMS  */
+.research-facility-1 {
+  width: 8.2rem;
+  height: 5.1rem;
+
+  position: absolute;
+  top: 6%;
+  left: 3.1%;
+}
+
+.research-facility-2 {
+  width: 7.1rem;
+  height: 7rem;
+
+  position: absolute;
+  top: 26%;
+  left: 3.1%;
+}
+
+.research-facility-3 {
+  width: 7.1rem;
+  height: 4.9rem;
+
+  position: absolute;
+  bottom: 30%;
+  left: 3.1%;
+}
+
+.storage {
+  width: 7.1rem;
+  height: 5rem;
+
+  position: absolute;
+  top: 14.8%;
+  left: 25.8%;
+
+  transform: rotate(36.8deg);
+}
+
+.command-centre {
+  width: 7.1rem;
+  height: 5rem;
+
+  position: absolute;
+  bottom: 27%;
+  left: 22.8%;
+
+  transform: rotate(-38.7deg);
+}
+
+.common-room {
+  width: 7.2rem;
+  height: 5rem;
+
+  position: absolute;
+  top: 38.6%;
+  left: 39.25%;
+}
+
+.shower-facilities {
+  width: 4.2rem;
+  height: 5rem;
+
+  position: absolute;
+  top: 38.6%;
+  left: 57.9%;
+}
+
+.sleeping-quarters {
+  width: 4.2rem;
+  height: 26.3rem;
+
+  position: absolute;
+  top: 3.6%;
+  left: 69.6%;
+}
+.fitness-facility {
+  width: 6.1rem;
+  height: 5rem;
+
+  position: absolute;
+  top: 38.6%;
+  left: 82%;
+}
+
+.research-facility-1,
+.research-facility-2,
+.research-facility-3,
+.storage,
+.command-centre,
+.common-room,
+.shower-facilities,
+.sleeping-quarters,
+.fitness-facility {
+  opacity: 0;
+  border: 3px solid white;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.05rem;
+
+  padding: 1.5rem 1rem 0.3rem 0.5rem;
+}
+
+.command-centre {
+  padding-top: 2.6rem;
+  padding-left: 1rem;
+  flex-direction: row;
+}
+
+.common-room {
+  padding-top: 2.2rem;
+}
+
+.sleeping-quarters {
+  padding-bottom: 16rem;
+}
+
+.dataslider {
+  width: 25rem;
+  position: absolute;
+  bottom: -5rem;
+
+  color: white;
+  background: var(--darkerblack);
+  box-shadow: 0px 0px 10px 1px black;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+
+.dataslider input {
+  margin-top: 0.75rem;
+}
+
+.legend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.purpleLegend,
+.yellowLegend {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.purpleDP {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: purple;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.yellowDP {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: 0.5rem;
+}
+
+.habitant {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  border-radius: 50%;
+  background-color: yellow;
+  align-self: flex-start;
+  align-content: center;
+  margin: 0;
+}
+
+.predictedHabitant {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  border-radius: 50%;
+  background-color: purple;
+  align-self: start;
+  align-content: center;
+  margin: 0;
+}
+
+@keyframes blinker {
+  50% {
+    border-color: white;
+  }
 }
