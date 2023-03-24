@@ -1,6 +1,6 @@
 .basemap {
   width: 40rem;
-  display: flex;
+  display: none;
   position: relative;
 }
 

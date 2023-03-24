@@ -248,38 +248,47 @@ function resetMap() {
   researchFacility1.innerHTML = "";
   researchFacility1.style.opacity = "0";
   researchFacility1.style.borderColor = "white";
+  researchFacility1.style.animation = "";
 
   researchFacility2.innerHTML = "";
   researchFacility2.style.opacity = "0";
   researchFacility2.style.borderColor = "white";
+  researchFacility2.style.animation = "";
 
   researchFacility3.innerHTML = "";
   researchFacility3.style.opacity = "0";
   researchFacility3.style.borderColor = "white";
+  researchFacility3.style.animation = "";
 
   storage.innerHTML = "";
   storage.style.opacity = "0";
   storage.style.borderColor = "white";
+  storage.style.animation = "";
 
   commandCentre.innerHTML = "";
   commandCentre.style.opacity = "0";
   commandCentre.style.borderColor = "white";
+  commandCentre.style.animation = "";
 
   commonRoom.innerHTML = "";
   commonRoom.style.opacity = "0";
   commonRoom.style.borderColor = "white";
+  commonRoom.style.animation = "";
 
   showerFacilities.innerHTML = "";
   showerFacilities.style.opacity = "0";
   showerFacilities.style.borderColor = "white";
+  showerFacilities.style.animation = "";
 
   sleepingQuarters.innerHTML = "";
   sleepingQuarters.style.opacity = "0";
   sleepingQuarters.style.borderColor = "white";
+  sleepingQuarters.style.animation = "";
 
   fitnessFacilities.innerHTML = "";
   fitnessFacilities.style.opacity = "0";
   fitnessFacilities.style.borderColor = "white";
+  fitnessFacilities.style.animation = "";
 }
 
 function visualizeMap(n, dataset) {
