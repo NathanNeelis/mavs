@@ -311,7 +311,7 @@ function visualizeMap(n, dataset) {
   ) {
     commandCentre.style.opacity = "1";
     commandCentre.style.borderColor = "red";
-    sleepingQuarters.style.animation = "blinker 3s linear infinite";
+    commandCentre.style.animation = "blinker 3s linear infinite";
   }
 
   // flashing green if there are only predicted habitants?
@@ -344,7 +344,7 @@ function visualizeMap(n, dataset) {
   ) {
     fitnessFacilities.style.opacity = "1";
     fitnessFacilities.style.borderColor = "red";
-    sleepingQuarters.style.animation = "blinker 3s linear infinite";
+    fitnessFacilities.style.animation = "blinker 3s linear infinite";
   }
 
   // flashing green if there are only predicted habitants?
@@ -377,7 +377,7 @@ function visualizeMap(n, dataset) {
   ) {
     researchFacility1.style.opacity = "1";
     researchFacility1.style.borderColor = "red";
-    sleepingQuarters.style.animation = "blinker 3s linear infinite";
+    researchFacility1.style.animation = "blinker 3s linear infinite";
   }
 
   // flashing green if there are only predicted habitants?
@@ -410,7 +410,7 @@ function visualizeMap(n, dataset) {
   ) {
     commonRoom.style.opacity = "1";
     commonRoom.style.borderColor = "red";
-    sleepingQuarters.style.animation = "blinker 3s linear infinite";
+    commonRoom.style.animation = "blinker 3s linear infinite";
   }
 
   // flashing green if there are only predicted habitants?
@@ -477,8 +477,8 @@ function roomOne(n, dataset) {
   let roomHabitants = dataset[n].room1.habitants;
   let roomPredictedHabitants = dataset[n].room1.predictedHabitants;
 
-  console.log("habitants room 1", roomHabitants);
-  console.log("predicted habitants room 1", roomPredictedHabitants);
+  // console.log("habitants room 1", roomHabitants);
+  // console.log("predicted habitants room 1", roomPredictedHabitants);
 
   roomHabitants.forEach((e) => {
     const habitantDiv = document.createElement("div");
@@ -499,8 +499,8 @@ function roomTwo(n, dataset) {
   let roomHabitants = dataset[n].room2.habitants;
   let roomPredictedHabitants = dataset[n].room2.predictedHabitants;
 
-  console.log("habitants room 2", roomHabitants);
-  console.log("predicted habitants room 2", roomPredictedHabitants);
+  // console.log("habitants room 2", roomHabitants);
+  // console.log("predicted habitants room 2", roomPredictedHabitants);
 
   roomHabitants.forEach((e) => {
     const habitantDiv = document.createElement("div");
@@ -521,8 +521,8 @@ function roomThree(n, dataset) {
   let roomHabitants = dataset[n].room3.habitants;
   let roomPredictedHabitants = dataset[n].room3.predictedHabitants;
 
-  console.log("habitants room 3", roomHabitants);
-  console.log("predicted habitants room 3", roomPredictedHabitants);
+  // console.log("habitants room 3", roomHabitants);
+  // console.log("predicted habitants room 3", roomPredictedHabitants);
 
   roomHabitants.forEach((e) => {
     const habitantDiv = document.createElement("div");
