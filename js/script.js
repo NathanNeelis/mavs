@@ -462,7 +462,7 @@ function visualizeMap(n, dataset) {
 
 function updateMap(n, dataset) {
   const title = document.querySelector(".datapointTitle");
-  let newTitle = "From " + dataset[n].startDate + " to " + dataset[n].endDate;
+  let newTitle = "Timestamp " + dataset[n].startDate;
   title.innerText = newTitle;
 
   roomOne(n, dataset);
