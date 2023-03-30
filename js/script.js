@@ -465,18 +465,24 @@ function updateMap(n, dataset) {
   let newTitle = "Timestamp: " + dataset[n].startDate;
   title.innerText = newTitle;
 
-  // const pHabitants = document.querySelector(".phabitants");
-  // const acHabitants = document.querySelector(".achabitants");
-  // let totalPH =
-  //   dataset[n].room1.predictedHabitants.length +
-  //   dataset[n].room2.predictedHabitants.length +
-  //   dataset[n].room3.predictedHabitants.length +
-  //   dataset[n].room4.predictedHabitants.length +
-  //   dataset[n].room5.predictedHabitants.length;
+  const pHabitants = document.querySelector(".phabitants");
+  const acHabitants = document.querySelector(".achabitants");
+  let totalPH =
+    dataset[n].room1.predictedHabitants.length +
+    dataset[n].room2.predictedHabitants.length +
+    dataset[n].room3.predictedHabitants.length +
+    dataset[n].room4.predictedHabitants.length +
+    dataset[n].room5.predictedHabitants.length;
 
-  // console.log(totalPH.toString());
-  // console.log(pHabitants);
-  // pHabitants.innerText = "(" + totalPH.toString() + ")";
+  let totalAC =
+    dataset[n].room1.habitants.length +
+    dataset[n].room2.habitants.length +
+    dataset[n].room3.habitants.length +
+    dataset[n].room4.habitants.length +
+    dataset[n].room5.habitants.length;
+
+  pHabitants.innerText = "(" + totalPH.toString() + ")";
+  acHabitants.innerText = "(" + totalAC.toString() + ")";
 
   roomOne(n, dataset);
   roomTwo(n, dataset);

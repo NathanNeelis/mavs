@@ -286,16 +286,12 @@ const dataset = [
   // timestamp 3
 
   {
-    startDate: "01 - 12 - 2022 12:00",
-    endDate: "01 - 12 - 2022 12:15",
+    startDate: "01 - 12 - 2022 15:45",
+    endDate: "01 - 12 - 2022 16:00",
     room1: {
       name: "Command Centre and equipment",
       habitants: [],
-      predictedHabitants: [
-        {
-          habitant_id: 18,
-        },
-      ],
+      predictedHabitants: [],
     },
     room2: {
       name: "Fitness facility",
@@ -320,39 +316,6 @@ const dataset = [
         },
         {
           habitant_id: 7,
-        },
-        {
-          habitant_id: 8,
-        },
-        {
-          habitant_id: 9,
-        },
-        {
-          habitant_id: 10,
-        },
-        {
-          habitant_id: 11,
-        },
-        {
-          habitant_id: 12,
-        },
-        {
-          habitant_id: 13,
-        },
-        {
-          habitant_id: 14,
-        },
-        {
-          habitant_id: 15,
-        },
-        {
-          habitant_id: 16,
-        },
-        {
-          habitant_id: 17,
-        },
-        {
-          habitant_id: 18,
         },
       ],
       predictedHabitants: [
@@ -411,7 +374,41 @@ const dataset = [
     },
     room3: {
       name: "Research lab",
-      habitants: [],
+      habitants: [
+        {
+          habitant_id: 8,
+        },
+        {
+          habitant_id: 9,
+        },
+        {
+          habitant_id: 10,
+        },
+        {
+          habitant_id: 11,
+        },
+        {
+          habitant_id: 12,
+        },
+        {
+          habitant_id: 13,
+        },
+        {
+          habitant_id: 14,
+        },
+        {
+          habitant_id: 15,
+        },
+        {
+          habitant_id: 16,
+        },
+        {
+          habitant_id: 17,
+        },
+        {
+          habitant_id: 18,
+        },
+      ],
       predictedHabitants: [],
     },
     room4: {
@@ -429,8 +426,8 @@ const dataset = [
   // timestamp 4
 
   {
-    startDate: "01 - 12 - 2022 16:00",
-    endDate: "01 - 12 - 2022 16:15",
+    startDate: "01 - 12 - 2022 17:45",
+    endDate: "01 - 12 - 2022 18:00",
     room1: {
       name: "Command Centre and equipment",
       habitants: [],
@@ -438,29 +435,7 @@ const dataset = [
     },
     room2: {
       name: "Fitness facility",
-      habitants: [
-        {
-          habitant_id: 1,
-        },
-        {
-          habitant_id: 2,
-        },
-        {
-          habitant_id: 3,
-        },
-        {
-          habitant_id: 4,
-        },
-        {
-          habitant_id: 5,
-        },
-        {
-          habitant_id: 6,
-        },
-        {
-          habitant_id: 7,
-        },
-      ],
+      habitants: [],
       predictedHabitants: [
         {
           habitant_id: 1,
@@ -476,21 +451,6 @@ const dataset = [
         },
         {
           habitant_id: 5,
-        },
-        {
-          habitant_id: 6,
-        },
-        {
-          habitant_id: 7,
-        },
-        {
-          habitant_id: 8,
-        },
-        {
-          habitant_id: 9,
-        },
-        {
-          habitant_id: 10,
         },
       ],
     },
@@ -498,6 +458,41 @@ const dataset = [
       name: "Research lab",
       habitants: [
         {
+          habitant_id: 1,
+        },
+        {
+          habitant_id: 2,
+        },
+        {
+          habitant_id: 3,
+        },
+        {
+          habitant_id: 4,
+        },
+        {
+          habitant_id: 5,
+        },
+        {
+          habitant_id: 6,
+        },
+        {
+          habitant_id: 7,
+        },
+        {
+          habitant_id: 8,
+        },
+        {
+          habitant_id: 9,
+        },
+      ],
+      predictedHabitants: [
+        {
+          habitant_id: 6,
+        },
+        {
+          habitant_id: 7,
+        },
+        {
           habitant_id: 8,
         },
         {
@@ -527,11 +522,14 @@ const dataset = [
         {
           habitant_id: 17,
         },
-        {
-          habitant_id: 18,
-        },
       ],
-      predictedHabitants: [
+    },
+    room4: {
+      name: "Common room",
+      habitants: [
+        {
+          habitant_id: 10,
+        },
         {
           habitant_id: 11,
         },
@@ -557,10 +555,6 @@ const dataset = [
           habitant_id: 18,
         },
       ],
-    },
-    room4: {
-      name: "Common room",
-      habitants: [],
       predictedHabitants: [],
     },
     room5: {
@@ -573,8 +567,8 @@ const dataset = [
   // timestamp 5
 
   {
-    startDate: "01 - 12 - 2022 18:00",
-    endDate: "01 - 12 - 2022 18:15",
+    startDate: "01 - 12 - 2022 21:45",
+    endDate: "01 - 12 - 2022 22:00",
     room1: {
       name: "Command Centre and equipment",
       habitants: [],
@@ -583,101 +577,23 @@ const dataset = [
     room2: {
       name: "Fitness facility",
       habitants: [],
-      predictedHabitants: [
-        {
-          habitant_id: 1,
-        },
-        {
-          habitant_id: 2,
-        },
-        {
-          habitant_id: 3,
-        },
-        {
-          habitant_id: 4,
-        },
-        {
-          habitant_id: 5,
-        },
-      ],
+      predictedHabitants: [],
     },
     room3: {
       name: "Research lab",
-      habitants: [
-        {
-          habitant_id: 1,
-        },
-        {
-          habitant_id: 2,
-        },
-        {
-          habitant_id: 3,
-        },
-        {
-          habitant_id: 4,
-        },
-        {
-          habitant_id: 5,
-        },
-        {
-          habitant_id: 6,
-        },
-        {
-          habitant_id: 7,
-        },
-        {
-          habitant_id: 8,
-        },
-        {
-          habitant_id: 9,
-        },
-      ],
-      predictedHabitants: [
-        {
-          habitant_id: 6,
-        },
-        {
-          habitant_id: 7,
-        },
-        {
-          habitant_id: 8,
-        },
-        {
-          habitant_id: 9,
-        },
-        {
-          habitant_id: 10,
-        },
-        {
-          habitant_id: 11,
-        },
-        {
-          habitant_id: 12,
-        },
-        {
-          habitant_id: 13,
-        },
-        {
-          habitant_id: 14,
-        },
-        {
-          habitant_id: 15,
-        },
-        {
-          habitant_id: 16,
-        },
-        {
-          habitant_id: 17,
-        },
-        {
-          habitant_id: 18,
-        },
-      ],
+      habitants: [],
+      predictedHabitants: [],
     },
     room4: {
       name: "Common room",
       habitants: [
         {
+          habitant_id: 8,
+        },
+        {
+          habitant_id: 9,
+        },
+        {
           habitant_id: 10,
         },
         {
@@ -705,11 +621,85 @@ const dataset = [
           habitant_id: 18,
         },
       ],
-      predictedHabitants: [],
+      predictedHabitants: [
+        {
+          habitant_id: 1,
+        },
+        {
+          habitant_id: 2,
+        },
+        {
+          habitant_id: 3,
+        },
+        {
+          habitant_id: 4,
+        },
+        {
+          habitant_id: 5,
+        },
+        {
+          habitant_id: 6,
+        },
+        {
+          habitant_id: 7,
+        },
+        {
+          habitant_id: 8,
+        },
+        {
+          habitant_id: 9,
+        },
+        {
+          habitant_id: 10,
+        },
+        {
+          habitant_id: 11,
+        },
+        {
+          habitant_id: 12,
+        },
+        {
+          habitant_id: 13,
+        },
+        {
+          habitant_id: 14,
+        },
+        {
+          habitant_id: 15,
+        },
+        {
+          habitant_id: 16,
+        },
+        {
+          habitant_id: 17,
+        },
+      ],
     },
     room5: {
       name: "Sleep quarters",
-      habitants: [],
+      habitants: [
+        {
+          habitant_id: 1,
+        },
+        {
+          habitant_id: 2,
+        },
+        {
+          habitant_id: 3,
+        },
+        {
+          habitant_id: 4,
+        },
+        {
+          habitant_id: 5,
+        },
+        {
+          habitant_id: 6,
+        },
+        {
+          habitant_id: 7,
+        },
+      ],
       predictedHabitants: [],
     },
   },
